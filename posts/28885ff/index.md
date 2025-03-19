@@ -14,6 +14,7 @@
 GetDlgItem(IDC_STATIC_AUTHOR)-&gt;GetWindowRect(&amp;m_rect);
 ScreenToClient(&amp;m_rect);
 ```
+&gt; [!NOTE]
 &gt; GetDlgItem(IDC_STATIC_AUTHOR)里添加的是你的控件ID。目的在于获取到Static Text的矩形区域。
 
 ### 1.3添加WM_LBUTTONUP事件

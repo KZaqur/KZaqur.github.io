@@ -11,7 +11,7 @@
   <meta itemprop="description" content="MFC静态文本设置超链接">
   <meta itemprop="datePublished" content="2025-03-17T22:47:21+08:00">
   <meta itemprop="dateModified" content="2025-03-17T22:47:21+08:00">
-  <meta itemprop="wordCount" content="162">
+  <meta itemprop="wordCount" content="163">
   <meta itemprop="keywords" content="MFC静态文本设置超链接"><meta property="og:url" content="https://kzaqur.github.io/posts/28885ff/">
   <meta property="og:site_name" content="Auseper&#39;s Home">
   <meta property="og:title" content="MFC静态文本设置超链接">
@@ -38,7 +38,7 @@
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https:\/\/kzaqur.github.io\/posts\/28885ff\/"
-    },"genre": "posts","keywords": "MFC","wordcount":  162 ,
+    },"genre": "posts","keywords": "MFC","wordcount":  163 ,
     "url": "https:\/\/kzaqur.github.io\/posts\/28885ff\/","datePublished": "2025-03-17T22:47:21+08:00","dateModified": "2025-03-17T22:47:21+08:00","publisher": {
       "@type": "Organization",
       "name": ""},"author": {
@@ -164,7 +164,7 @@
   <article class="page single">
     <div class="header"><h1 class="single-title animate__animated animate__flipInX"><span>MFC静态文本设置超链接</span>
       </h1></div><div class="post-meta">
-      <div class="post-meta-line"><span class="post-author"><a href="https://github.com/KZaqur" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" alt="Auseper" data-title="Auseper" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Auseper</a></span><span class="post-included-in">&nbsp;included in <a href="/categories/mfc/" class="post-category" title="Category - MFC"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> MFC</a></span></div><div class="post-meta-line"><span title="published on 2025-03-17 22:47:21"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-03-17">2025-03-17</time></span>&nbsp;<span title="162 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 200 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>One minute</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="MFC静态文本设置超链接"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;views
+      <div class="post-meta-line"><span class="post-author"><a href="https://github.com/KZaqur" title="Author"target="_blank" rel="external nofollow noopener noreferrer author" class="author"><img loading="lazy" src="/images/avatar.png" alt="Auseper" data-title="Auseper" width="20" height="20" class="avatar" style="background: url(/images/loading.min.svg) no-repeat center;" onload="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}this.dataset.lazyloaded='';" onerror="this.title=this.dataset.title;for(const i of ['style', 'data-title','onerror','onload']){this.removeAttribute(i);}"/>&nbsp;Auseper</a></span><span class="post-included-in">&nbsp;included in <a href="/categories/mfc/" class="post-category" title="Category - MFC"><i class="fa-regular fa-folder fa-fw" aria-hidden="true"></i> MFC</a></span></div><div class="post-meta-line"><span title="published on 2025-03-17 22:47:21"><i class="fa-solid fa-calendar-days fa-fw me-1" aria-hidden="true"></i><time datetime="2025-03-17">2025-03-17</time></span>&nbsp;<span title="163 words"><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden="true"></i>About 200 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden="true"></i>One minute</span>&nbsp;<span id="busuanzi_container_page_pv" class="busuanzi_visitors comment-visitors" data-flag-title="MFC静态文本设置超链接"><i class="fa-regular fa-eye fa-fw me-1" aria-hidden="true"></i><span id="busuanzi_value_page_pv">-</span>&nbsp;views
           </span>&nbsp;</div>
     </div><div class="details toc" id="toc-static" data-kept="false">
         <div class="details-summary toc-title">
@@ -212,10 +212,8 @@
 <pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="n">GetDlgItem</span><span class="p">(</span><span class="n">IDC_STATIC_AUTHOR</span><span class="p">)</span><span class="o">-&gt;</span><span class="n">GetWindowRect</span><span class="p">(</span><span class="o">&amp;</span><span class="n">m_rect</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">ScreenToClient</span><span class="p">(</span><span class="o">&amp;</span><span class="n">m_rect</span><span class="p">);</span></span></span></code></pre></td></tr></table>
 </div>
-</div><blockquote>
-<p>GetDlgItem(IDC_STATIC_AUTHOR)里添加的是你的控件ID。目的在于获取到Static Text的矩形区域。</p>
-</blockquote>
-<h3 id="13添加wm_lbuttonup事件" class="heading-element">
+</div><div class="alert alert-note"><p class="alert-title"><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M0 8a8 8 0 1116 0A8 8 0 010 8zm8-6.5a6.5 6.5.0 100 13 6.5 6.5.0 000-13zM6.5 7.75A.75.75.0 017.25 7h1a.75.75.0 01.75.75v2.75h.25a.75.75.0 010 1.5h-2a.75.75.0 010-1.5h.25v-2h-.25a.75.75.0 01-.75-.75zM8 6a1 1 0 110-2 1 1 0 010 2z"/></svg>Note</p><p>GetDlgItem(IDC_STATIC_AUTHOR)里添加的是你的控件ID。目的在于获取到Static Text的矩形区域。</p>
+</div><h3 id="13添加wm_lbuttonup事件" class="heading-element">
   <a href="#13%e6%b7%bb%e5%8a%a0wm_lbuttonup%e4%ba%8b%e4%bb%b6" class="heading-mark"></a><span>1.3添加WM_LBUTTONUP事件</span>
   <a href="#13%e6%b7%bb%e5%8a%a0wm_lbuttonup%e4%ba%8b%e4%bb%b6" class="heading-mark-link">
     <svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg>
