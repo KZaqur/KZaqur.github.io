@@ -61,7 +61,9 @@ HBRUSH CAntiHashDlg::OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor)
   return hbr;
 }
 ```
-现在，点击带颜色的静态文本就会跳转指定网页。
+&gt; [!TIP]
+&gt; 现在，点击带颜色的静态文本就会跳转指定网页。
+
 
 ---
 
