@@ -24,6 +24,7 @@
 ![2](/images/VscodeThemeFont/2.png)
 &gt; [!IMPORTANT]
 &gt; 修改 `Consolas` 为 `&#39;JetBrains Mono&#39;`
+
 为了更好的显示中文，推荐将 `monospace` 修改为 `&#34;微软雅黑&#34;`
 
 如下图所示
