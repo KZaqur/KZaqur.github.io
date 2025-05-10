@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://kzaqur.github.io/</loc>
-    <lastmod>2025-03-23T21:04:12+08:00</lastmod>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
   </url>
   <url>
     <loc>https://kzaqur.github.io/categories/</loc>
-    <lastmod>2025-03-23T21:04:12+08:00</lastmod>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
   </url>
   <url>
     <loc>https://kzaqur.github.io/posts/</loc>
-    <lastmod>2025-03-23T21:04:12+08:00</lastmod>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://kzaqur.github.io/tags/something/</loc>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://kzaqur.github.io/categories/something/</loc>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
   </url>
   <url>
     <loc>https://kzaqur.github.io/tags/</loc>
-    <lastmod>2025-03-23T21:04:12+08:00</lastmod>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
+  </url>
+  <url>
+    <loc>https://kzaqur.github.io/posts/1cf9c84/</loc>
+    <lastmod>2025-05-09T23:00:37+08:00</lastmod>
   </url>
   <url>
     <loc>https://kzaqur.github.io/tags/tutorial/</loc>
@@ -39,14 +51,6 @@
   <url>
     <loc>https://kzaqur.github.io/posts/28885ff/</loc>
     <lastmod>2025-03-17T22:47:21+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://kzaqur.github.io/tags/something/</loc>
-    <lastmod>2025-03-11T22:10:35+08:00</lastmod>
-  </url>
-  <url>
-    <loc>https://kzaqur.github.io/categories/something/</loc>
-    <lastmod>2025-03-11T22:10:35+08:00</lastmod>
   </url>
   <url>
     <loc>https://kzaqur.github.io/posts/1dff436/</loc>
